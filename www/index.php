@@ -1,36 +1,74 @@
 <?php
 
-if (!empty($_GET["name"])) {
-    /*$response  = file_get_contents("https://example.com");
-    echo $response;*/
+$ch = curl_init();
 
-    /*$response  = file_get_contents("https://randomuser.me/api");
-    $data = json_decode($response, true);
-    echo $data["results"][0]["name"]["first"], "\n";*/
+//curl_setopt($ch, CURLOPT_URL, "https://randomuser.me/api");
+//curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
-    $response = file_get_contents("https://api.agify.io?name={$_GET['name']}"); // Dave/michael/jane
-    $data = json_decode($response, true);
-    $age = $data["age"];
-}
+/*$headers = [
+    "Authorization: Client-ID YOUR_ACCESS_TOKEN"
+];
 
+$response_headers = [];
+$header_callback = function ($ch, $header) use (&$response_headers) {
+    $len = strlen($header);
 
-?>
+    $parts = explode(":", $header, 2);
+    if (count($parts) < 2) {
+        return $len;
+    }
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Example</title>
-</head>
-<body>
-<?php
-if (isset($age)): ?>
-    Idade: <?= $age;?>
-<?php
-endif; ?>
-<form>
-    <label for="name">Nome</label>
-    <input name="name" id="name"/>
-    <button>Adivinhe a idade</button>
-</form>
-</body>
-</html>
+    $response_headers[$parts[0]] = trim($parts[1]);
+    return $len;
+};
+
+curl_setopt_array(
+    $ch,
+    [
+        CURLOPT_URL => "https://api.unsplash.com/photos/random",
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_HTTPHEADER => $headers,
+        CURLOPT_HEADERFUNCTION => $header_callback
+    ]
+);
+
+$response = curl_exec($ch);
+$status_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+curl_close($ch);
+
+echo $status_code, "\n";
+print_r($response_headers);
+echo $response, "\n";*/
+
+$headers = [
+    "Authorization: token YOUR_ACCESS_TOKEN",
+//    "User-agent: marcionavarro"
+];
+
+$payload = json_encode(
+    [
+        "name" => "Create from API",
+        "description" => "an example API-created repo"
+    ]
+);
+
+curl_setopt_array(
+    $ch,
+    [
+        CURLOPT_URL => "https://api.github.com/user/repos",
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_HTTPHEADER => $headers,
+        CURLOPT_USERAGENT => "marcionavarro",
+//        CURLOPT_CUSTOMREQUEST => 'POST',
+       // CURLOPT_POST => true,
+        CURLOPT_POSTFIELDS => $payload
+    ]
+);
+
+$response = curl_exec($ch);
+$status_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+curl_close($ch);
+
+echo $status_code, "\n";
+echo $response, "\n";
+
