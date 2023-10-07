@@ -1,74 +1,68 @@
 <?php
 
-$ch = curl_init();
-
-//curl_setopt($ch, CURLOPT_URL, "https://randomuser.me/api");
-//curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-
-/*$headers = [
-    "Authorization: Client-ID YOUR_ACCESS_TOKEN"
-];
-
-$response_headers = [];
-$header_callback = function ($ch, $header) use (&$response_headers) {
-    $len = strlen($header);
-
-    $parts = explode(":", $header, 2);
-    if (count($parts) < 2) {
-        return $len;
-    }
-
-    $response_headers[$parts[0]] = trim($parts[1]);
-    return $len;
-};
+/*$ch = curl_init();
 
 curl_setopt_array(
     $ch,
     [
-        CURLOPT_URL => "https://api.unsplash.com/photos/random",
+        CURLOPT_URL => "https://api.github.com/gists/67a0a1086b70f7f0a912699d6d6ca45b",
         CURLOPT_RETURNTRANSFER => true,
-        CURLOPT_HTTPHEADER => $headers,
-        CURLOPT_HEADERFUNCTION => $header_callback
+        CURLOPT_USERAGENT => 'marcionavarro'
     ]
 );
-
 $response = curl_exec($ch);
-$status_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
 curl_close($ch);
+$data = json_decode($response, true);
+print_r($data);
+//foreach ($data as $gist) {
+//    echo $gist["id"], " - ", $gist["description"], "\n";
+//}*/
 
-echo $status_code, "\n";
-print_r($response_headers);
-echo $response, "\n";*/
+/*************************************************************************************************************/
 
-$headers = [
-    "Authorization: token YOUR_ACCESS_TOKEN",
-//    "User-agent: marcionavarro"
+/*require __DIR__ . "/vendor/autoload.php";
+
+$client = new \GuzzleHttp\Client;
+
+$response = $client->request("GET", "https://api.github.com/user/repos", [
+    "headers" => [
+        "Authorization" => "token YOUR_ACCESS_TOKEN",
+        "User-Agent" => "marcionavarro"
+    ]
+]);
+
+echo $response->getStatusCode(), "\n";
+echo $response->getHeader("content-type")[0], "\n";
+echo substr($response->getBody(), 0, 200), "...\n";*/
+
+/*************************************************************************************************************/
+
+require __DIR__ . "/vendor/autoload.php";
+
+$api_key = "YOUR_API_KEY"; //YOUR_API_KEY
+
+$data = [
+  "name" => "Bob",
+  "email" => "bob@example.com"
 ];
 
-$payload = json_encode(
-    [
-        "name" => "Create from API",
-        "description" => "an example API-created repo"
-    ]
-);
+$stripe = new \Stripe\StripeClient($api_key);
+$customer = $stripe->customers->create($data);
+echo $customer;
 
+/*$ch = curl_init();
 curl_setopt_array(
     $ch,
     [
-        CURLOPT_URL => "https://api.github.com/user/repos",
+        CURLOPT_URL => "https://api.stripe.com/v1/customers",
         CURLOPT_RETURNTRANSFER => true,
-        CURLOPT_HTTPHEADER => $headers,
-        CURLOPT_USERAGENT => "marcionavarro",
-//        CURLOPT_CUSTOMREQUEST => 'POST',
-       // CURLOPT_POST => true,
-        CURLOPT_POSTFIELDS => $payload
+        CURLOPT_USERPWD => $api_key,
+        CURLOPT_POSTFIELDS => http_build_query($data)
     ]
 );
-
 $response = curl_exec($ch);
-$status_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
 curl_close($ch);
+echo $response;*/
 
-echo $status_code, "\n";
-echo $response, "\n";
+
 
