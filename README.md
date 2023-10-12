@@ -1,16 +1,16 @@
-#APIs em PHP: do básico ao avançado
+# APIs em PHP: do básico ao avançado
 
 ### Use APIs REST de PHP e crie sua própria API RESTful usando PHP simples, com chave de API e autenticação de token JWT 
 
 #### LINKS DOS RECURSOS 
 
-############## SEÇÃO 1 ##############
+############## SEÇÃO 1 ############## <br />
 https://www.apachefriends.org/index.html <br />
 https://www.mamp.info/en/mac/ <br />
 https://getcomposer.org/ <br />
 
 ================================================================
-############## SEÇÃO 2 ##############
+############## SEÇÃO 2 ############## <br />
 https://randomuser.me/ <br />
 https://www.php.net/manual/en/function.file-get-contents.php  <br />
 https://example.com/ <br />
@@ -19,7 +19,7 @@ https://www.php.net/manual/en/function.json-decode.php <br />
 https://agify.io/ <br />
 
 ================================================================
-############## SEÇÃO 3 ##############
+############## SEÇÃO 3 ############## <br />
 https://www.php.net/manual/en/function.file-get-contents.php <br />
 https://www.php.net/manual/en/filesystem.configuration.php#ini.allow-url-fopen <br />
 https://curl.se/ <br />
@@ -43,7 +43,7 @@ https://docs.github.com/en/rest/activity?apiVersion=2022-11-28#check-if-a-reposi
 https://docs.github.com/en/rest/repos?apiVersion=2022-11-28#create-a-repository-for-the-authenticated-user <br />
 
 ================================================================
-############## SEÇÃO 4 ##############
+############## SEÇÃO 4 ############## <br />
 https://en.wikipedia.org/wiki/REST <br />
 https://ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm <br />
 https://docs.github.com/en/rest/gists?apiVersion=2022-11-28 <br />
@@ -57,7 +57,7 @@ https://www.php.net/manual/en/function.http-build-query.php <br />
 https://dashboard.stripe.com/login <br />
 
 ================================================================
-############## SEÇÃO 5 ##############
+############## SEÇÃO 5 ############## <br />
 https://curl.se/ <br />
 https://www.postman.com/ <br />
 https://httpie.io/ <br />
@@ -73,7 +73,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/405 <br />
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Allow <br />
 
 ================================================================
-############## SEÇÃO 6 ##############
+############## SEÇÃO 6 ############## <br />
 https://www.php.net/manual/en/language.oop5.decon.php#language.oop5.decon.constructor.promotion <br />
 https://packagist.org/?query=dotenv <br />
 https://www.json.org/json-en.html <br />
@@ -83,7 +83,7 @@ https://www.json.org/json-en.html <br />
 https://www.php.net/manual/en/pdostatement.fetch.php <br />
 
 ================================================================
-############## SEÇÃO 7 ##############
+############## SEÇÃO 7 ############## <br />
 https://www.php.net/manual/en/reserved.variables.post.php <br />
 https://httpie.io/docs/cli#default-behaviour <br />
 https://www.php.net/manual/en/wrappers.php.php#wrappers.php.input <br />
@@ -95,7 +95,7 @@ https://www.php.net/manual/en/class.errorexception.php <br />
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422 <br />
 
 ================================================================
-############## SEÇÃO 8 ##############
+############## SEÇÃO 8 ############## <br />
 https://randomuser.me/ <br />
 https://docs.github.com/en/rest/overview/resources-in-the-rest-api?apiVersion=2022-11-28 <br />
 https://www.php.net/manual/en/function.password-hash.php <br />
@@ -108,13 +108,13 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400 <br />
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401 <br />
 
 ================================================================
-############## SEÇÃO 9 ##############
+############## SEÇÃO 9 ############## <br />
 https://www.php.net/manual/en/function.base64-encode.php <br />
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Authorization <br />
 https://www.php.net/manual/en/function.apache-request-headers.php <br />
 
 ================================================================
-############## SEÇÃO 10 ##############
+############## SEÇÃO 10 ############## <br />
 https://jwt.io/ <br />
 https://github.com/firebase/php-jwt <br />
 https://en.wikipedia.org/wiki/Base64#The_URL_applications <br />
@@ -126,6 +126,6 @@ https://www.php.net/manual/en/function.hash-equals.php <br />
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401 <br />
 
 ================================================================
-############## SEÇÃO 11 ##############
+############## SEÇÃO 11 ############## <br />
 https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.4 <br />
 https://www.php.net/manual/en/function.time.php <br />
