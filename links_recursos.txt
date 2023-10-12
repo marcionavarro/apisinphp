@@ -1,9 +1,3 @@
-#APIs em PHP: do básico ao avançado
-
-### Use APIs REST de PHP e crie sua própria API RESTful usando PHP simples, com chave de API e autenticação de token JWT 
-
-#### LINKS DOS RECURSOS 
-
 ############## SEÇÃO 1 ##############
 https://www.apachefriends.org/index.html
 https://www.mamp.info/en/mac/
