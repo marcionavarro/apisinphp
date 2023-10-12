@@ -5,127 +5,127 @@
 #### LINKS DOS RECURSOS 
 
 ############## SEÇÃO 1 ##############
-https://www.apachefriends.org/index.html
-https://www.mamp.info/en/mac/
-https://getcomposer.org/
+https://www.apachefriends.org/index.html <br />
+https://www.mamp.info/en/mac/ <br />
+https://getcomposer.org/ <br />
 
 ================================================================
 ############## SEÇÃO 2 ##############
-https://randomuser.me/
-https://www.php.net/manual/en/function.file-get-contents.php
-https://example.com/
-https://www.json.org/json-en.html
-https://www.php.net/manual/en/function.json-decode.php
-https://agify.io/
+https://randomuser.me/ <br />
+https://www.php.net/manual/en/function.file-get-contents.php  <br />
+https://example.com/ <br />
+https://www.json.org/json-en.html <br />
+https://www.php.net/manual/en/function.json-decode.php <br />
+https://agify.io/ <br />
 
 ================================================================
 ############## SEÇÃO 3 ##############
-https://www.php.net/manual/en/function.file-get-contents.php
-https://www.php.net/manual/en/filesystem.configuration.php#ini.allow-url-fopen
-https://curl.se/
-https://www.php.net/manual/en/book.curl.php
-https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
-https://github.com/404
-https://openweathermap.org/api
-https://en.wikipedia.org/wiki/List_of_HTTP_header_fields#Request_fields
-https://unsplash.com/pt-br
-https://unsplash.com/documentation#public-authentication
-https://en.wikipedia.org/wiki/List_of_HTTP_header_fields#Response_fields
-https://www.php.net/manual/en/function.curl-getinfo.php
-https://www.php.net/manual/en/function.curl-setopt.php
-https://docs.github.com/en/rest/activity?apiVersion=2022-11-28#starring
-https://github.com/settings/tokens
-https://github.com/httpie/cli
-https://docs.github.com/en/rest/overview/resources-in-the-rest-api?apiVersion=2022-11-28#user-agent-required
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
-https://en.wikipedia.org/wiki/HTTP#Request_methods
-https://docs.github.com/en/rest/activity?apiVersion=2022-11-28#check-if-a-repository-is-starred-by-the-authenticated-user
-https://docs.github.com/en/rest/repos?apiVersion=2022-11-28#create-a-repository-for-the-authenticated-user
+https://www.php.net/manual/en/function.file-get-contents.php <br />
+https://www.php.net/manual/en/filesystem.configuration.php#ini.allow-url-fopen <br />
+https://curl.se/ <br />
+https://www.php.net/manual/en/book.curl.php <br /> 
+https://en.wikipedia.org/wiki/List_of_HTTP_status_codes <br />
+https://github.com/404 <br />
+https://openweathermap.org/api <br />
+https://en.wikipedia.org/wiki/List_of_HTTP_header_fields#Request_fields <br /> 
+https://unsplash.com/pt-br <br />
+https://unsplash.com/documentation#public-authentication <br />
+https://en.wikipedia.org/wiki/List_of_HTTP_header_fields#Response_fields <br />
+https://www.php.net/manual/en/function.curl-getinfo.php <br />
+https://www.php.net/manual/en/function.curl-setopt.php <br />
+https://docs.github.com/en/rest/activity?apiVersion=2022-11-28#starring <br />
+https://github.com/settings/tokens <br />
+https://github.com/httpie/cli <br />
+https://docs.github.com/en/rest/overview/resources-in-the-rest-api?apiVersion=2022-11-28#user-agent-required <br />
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form <br />
+https://en.wikipedia.org/wiki/HTTP#Request_methods <br />
+https://docs.github.com/en/rest/activity?apiVersion=2022-11-28#check-if-a-repository-is-starred-by-the-authenticated-user <br />
+https://docs.github.com/en/rest/repos?apiVersion=2022-11-28#create-a-repository-for-the-authenticated-user <br />
 
 ================================================================
 ############## SEÇÃO 4 ##############
-https://en.wikipedia.org/wiki/REST
-https://ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm
-https://docs.github.com/en/rest/gists?apiVersion=2022-11-28
-https://docs.guzzlephp.org/en/stable/
-https://aws.amazon.com/pt/sdk-for-php/
-https://www.google.co.uk/search?q=php+sdk
-https://stripe.com/br
-https://stripe.com/docs/libraries#server-side-libraries
-https://stripe.com/docs/api/customers?lang=php
-https://www.php.net/manual/en/function.http-build-query.php
-https://dashboard.stripe.com/login
+https://en.wikipedia.org/wiki/REST <br />
+https://ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm <br />
+https://docs.github.com/en/rest/gists?apiVersion=2022-11-28 <br />
+https://docs.guzzlephp.org/en/stable/ <br />
+https://aws.amazon.com/pt/sdk-for-php/ <br />
+https://www.google.co.uk/search?q=php+sdk <br />
+https://stripe.com/br <br />
+https://stripe.com/docs/libraries#server-side-libraries <br />
+https://stripe.com/docs/api/customers?lang=php <br />
+https://www.php.net/manual/en/function.http-build-query.php <br />
+https://dashboard.stripe.com/login <br />
 
 ================================================================
 ############## SEÇÃO 5 ##############
-https://curl.se/
-https://www.postman.com/
-https://httpie.io/
-https://www.php.net/manual/en/function.header.php
-https://www.php.net/manual/en/function.http-response-code.php
-https://www.php.net/manual/en/function.spl-autoload-register.php
-https://getcomposer.org/doc/01-basic-usage.md#autoloading
-https://www.php.net/manual/en/language.types.declarations.php
-https://www.php.net/manual/en/errorfunc.configuration.php#ini.display-errors
-https://www.php.net/manual/en/function.set-exception-handler.php
-https://www.php.net/manual/en/class.throwable.php
-https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/405
-https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Allow
+https://curl.se/ <br />
+https://www.postman.com/ <br />
+https://httpie.io/ <br />
+https://www.php.net/manual/en/function.header.php <br />
+https://www.php.net/manual/en/function.http-response-code.php <br />
+https://www.php.net/manual/en/function.spl-autoload-register.php <br />
+https://getcomposer.org/doc/01-basic-usage.md#autoloading <br />
+https://www.php.net/manual/en/language.types.declarations.php <br />
+https://www.php.net/manual/en/errorfunc.configuration.php#ini.display-errors <br />
+https://www.php.net/manual/en/function.set-exception-handler.php <br />
+https://www.php.net/manual/en/class.throwable.php <br />
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/405 <br />
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Allow <br />
 
 ================================================================
 ############## SEÇÃO 6 ##############
-https://www.php.net/manual/en/language.oop5.decon.php#language.oop5.decon.constructor.promotion
-https://packagist.org/?query=dotenv
-https://www.json.org/json-en.html
-https://www.php.net/manual/en/pdo.setattribute.php
-https://mariadb.com/kb/en/boolean/
-https://www.json.org/json-en.html
-https://www.php.net/manual/en/pdostatement.fetch.php
+https://www.php.net/manual/en/language.oop5.decon.php#language.oop5.decon.constructor.promotion <br />
+https://packagist.org/?query=dotenv <br />
+https://www.json.org/json-en.html <br />
+https://www.php.net/manual/en/pdo.setattribute.php <br />
+https://mariadb.com/kb/en/boolean/ <br />
+https://www.json.org/json-en.html <br />
+https://www.php.net/manual/en/pdostatement.fetch.php <br />
 
 ================================================================
 ############## SEÇÃO 7 ##############
-https://www.php.net/manual/en/reserved.variables.post.php
-https://httpie.io/docs/cli#default-behaviour
-https://www.php.net/manual/en/wrappers.php.php#wrappers.php.input
-https://httpie.io/docs/cli#request-items
-https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/201
-https://www.php.net/manual/en/class.error.php
-https://www.php.net/manual/en/function.set-exception-handler.php
-https://www.php.net/manual/en/class.errorexception.php
-https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422
+https://www.php.net/manual/en/reserved.variables.post.php <br />
+https://httpie.io/docs/cli#default-behaviour <br />
+https://www.php.net/manual/en/wrappers.php.php#wrappers.php.input <br />
+https://httpie.io/docs/cli#request-items <br />
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/201 <br />
+https://www.php.net/manual/en/class.error.php <br />
+https://www.php.net/manual/en/function.set-exception-handler.php <br />
+https://www.php.net/manual/en/class.errorexception.php <br />
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422 <br />
 
 ================================================================
 ############## SEÇÃO 8 ##############
-https://randomuser.me/
-https://docs.github.com/en/rest/overview/resources-in-the-rest-api?apiVersion=2022-11-28
-https://www.php.net/manual/en/function.password-hash.php
-https://picocss.com/
-https://www.php.net/manual/en/function.random-bytes.php
-https://www.php.net/manual/en/function.bin2hex.php
-https://en.wikipedia.org/wiki/API_key
-https://www.php.net/manual/en/reserved.variables.server.php
-https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
-https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+https://randomuser.me/ <br />
+https://docs.github.com/en/rest/overview/resources-in-the-rest-api?apiVersion=2022-11-28 <br />
+https://www.php.net/manual/en/function.password-hash.php <br />
+https://picocss.com/ <br />
+https://www.php.net/manual/en/function.random-bytes.php <br />
+https://www.php.net/manual/en/function.bin2hex.php <br />
+https://en.wikipedia.org/wiki/API_key <br />
+https://www.php.net/manual/en/reserved.variables.server.php <br />
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400 <br />
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401 <br />
 
 ================================================================
 ############## SEÇÃO 9 ##############
-https://www.php.net/manual/en/function.base64-encode.php
-https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Authorization
-https://www.php.net/manual/en/function.apache-request-headers.php
+https://www.php.net/manual/en/function.base64-encode.php <br />
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Authorization <br />
+https://www.php.net/manual/en/function.apache-request-headers.php <br />
 
 ================================================================
 ############## SEÇÃO 10 ##############
-https://jwt.io/
-https://github.com/firebase/php-jwt
-https://en.wikipedia.org/wiki/Base64#The_URL_applications
-https://www.php.net/manual/en/function.hash-hmac.php
-https://datatracker.ietf.org/doc/html/rfc7518#section-3.2
-https://www.google.co.uk/search?q=256-bit+key+generator
-https://www.iana.org/assignments/jwt/jwt.xhtml
-https://www.php.net/manual/en/function.hash-equals.php
-https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+https://jwt.io/ <br />
+https://github.com/firebase/php-jwt <br />
+https://en.wikipedia.org/wiki/Base64#The_URL_applications <br />
+https://www.php.net/manual/en/function.hash-hmac.php <br />
+https://datatracker.ietf.org/doc/html/rfc7518#section-3.2 <br />
+https://www.google.co.uk/search?q=256-bit+key+generator <br />
+https://www.iana.org/assignments/jwt/jwt.xhtml <br />
+https://www.php.net/manual/en/function.hash-equals.php <br />
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401 <br />
 
 ================================================================
 ############## SEÇÃO 11 ##############
-https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.4
-https://www.php.net/manual/en/function.time.php
+https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.4 <br />
+https://www.php.net/manual/en/function.time.php <br />
